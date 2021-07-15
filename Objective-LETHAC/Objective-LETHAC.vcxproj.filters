@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\IO">
+      <UniqueIdentifier>{43cff0bb-c497-4cc7-adaa-e0e4c0c16a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Alogrithm">
+      <UniqueIdentifier>{a4884cb0-ece0-476f-9445-4aa19350dcf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Components">
+      <UniqueIdentifier>{fc1d5f62-6b1a-4030-852b-fff0f886c191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Property">
+      <UniqueIdentifier>{3a98466a-75c9-41a9-8319-4611212ae870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\IO">
+      <UniqueIdentifier>{378ce867-115d-4532-a15b-73877c3f8749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Alogrithm">
+      <UniqueIdentifier>{5f690c42-c58e-42e8-a7fb-a2a3bbd3728e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Components">
+      <UniqueIdentifier>{2cd5f5c2-d316-473f-931d-5bc80246dbb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Property">
+      <UniqueIdentifier>{9ebed228-6418-430e-8037-f5a70f29e5d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Objective-LETHAC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="alogrithm.cpp">
+      <Filter>源文件\Alogrithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Core__.cpp">
+      <Filter>源文件\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Fluid_Prop__.cpp">
+      <Filter>源文件\Property</Filter>
+    </ClCompile>
+    <ClCompile Include="HTX__.cpp">
+      <Filter>源文件\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Tube__.cpp">
+      <Filter>源文件\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="nuclear.cpp">
+      <Filter>源文件\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Solver.cpp">
+      <Filter>源文件\Alogrithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Pool__.cpp">
+      <Filter>源文件\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure__.cpp">
+      <Filter>源文件\Alogrithm</Filter>
+    </ClCompile>
+    <ClCompile Include="System__.cpp">
+      <Filter>源文件\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="reader.cpp">
+      <Filter>源文件\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="Writer__.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alogrithm.h">
+      <Filter>头文件\Alogrithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Solver.h">
+      <Filter>头文件\Alogrithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure__.h">
+      <Filter>头文件\Alogrithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Fluid_Prop__.h">
+      <Filter>头文件\Property</Filter>
+    </ClInclude>
+    <ClInclude Include="Core__.h">
+      <Filter>头文件\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="HTX__.h">
+      <Filter>头文件\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Tube__.h">
+      <Filter>头文件\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Pool__.h">
+      <Filter>头文件\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="System__.h">
+      <Filter>头文件\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="nuclear.h">
+      <Filter>头文件\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="part.h">
+      <Filter>头文件\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="reader.h">
+      <Filter>头文件\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Writer__.h">
+      <Filter>头文件\IO</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
